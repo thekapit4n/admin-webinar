@@ -1,5 +1,5 @@
 <?php 
-      if(isset($arr_url['filename']) && $arr_url['filename'] != '') 
+      if(isset($arr_pathinfo['filename']) && $arr_pathinfo['filename'] != '') 
       {
         ?>  
           <div class="content-header">
@@ -8,7 +8,7 @@
                 <div class="col-sm-6">
                   <ol class="breadcrumb float-sm-left">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active"><?php echo ucwords(strtolower(str_replace("_", " ", $arr_url['filename']))) ?></li>
+                    <li class="breadcrumb-item active"><?php echo ucwords(strtolower(str_replace("_", " ", $arr_pathinfo['filename']))) ?></li>
                   </ol>
                 </div><!-- /.col -->
               </div><!-- /.row -->

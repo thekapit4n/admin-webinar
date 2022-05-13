@@ -17,9 +17,9 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header" style="position:relative;">
-                <h3 class="card-title">Workshop List</h3>
+                <h3 class="card-title">Worksheet List</h3>
                 <div style="position:absolute; right: 17%; top: 7px;">
-                  <a href="<?php echo ($arr_pathinfo['dirname']) ? $arr_pathinfo['dirname'] . "/" : '/' ?>worksheet_form.php" type="button" class="btn btn-danger btn-sm"><i class="fas fa-plus"></i> Add Worksheet</a>
+                  <a href="<?php echo ($arr_pathinfo['dirname']) ? $arr_pathinfo['dirname'] . "/" : '/' ?>workshop_form.php" type="button" class="btn btn-danger btn-sm"><i class="fas fa-plus"></i> Add Workshop</a>
                 </div>
                 <div class="card-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">
@@ -39,12 +39,8 @@
                     <tr>
                       <th>ID</th>
                       <th>Webinar</th>
-                      <th>Workshop Name</th>
-                      <th>Workshop Teacher</th>
-                      <th>Start Date</th>
-                      <th>End Date</th>
+                      <th>Worksheet Title</th>
                       <th>Status</th>
-                      <th>Type</th>
                       <th>Action</th>
                     </tr>
                   </thead>
@@ -52,12 +48,8 @@
                     <tr>
                       <td>1</td>
                       <td>Motherhood Super Kids</td>
-                      <td>Mother's Day Card (ARTS)</td>
-                      <td>Liang Jia</td>
-                      <td>2022-05-07 12:00:00</td>
-                      <td>2022-05-07 13:00:00</td>
+                      <td>Dragon Coloring</td>
                       <td><span class="badge badge-success badge-custom">Active</span></td>
-                      <td>Premium</td>
                       <td>
                           <button type="button" class="btn btn-info btn-sm"><i class="fas fa-pencil-alt"></i> Edit</button>
                       </td>
@@ -65,12 +57,8 @@
                     <tr>
                       <td>2</td>
                       <td>Motherhood Super Kids</td>
-                      <td>Mother's Day Floating Dry Erase Marker(S.T.E.M.)</td>
-                      <td>Li Fen</td>
-                      <td>2022-05-07 12:00:00</td>
-                      <td>2022-05-07 13:00:00</td>
+                      <td>Birthday Greeting Card</td>
                       <td><span class="badge badge-success badge-custom">Active</span></td>
-                      <td>Premium</td>
                       <td>
                           <button type="button" class="btn btn-info btn-sm"><i class="fas fa-pencil-alt"></i> Edit</button>
                       </td>
