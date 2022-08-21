@@ -1,6 +1,7 @@
 <?php
     $url = $_SERVER['REQUEST_URI'];
     $arr_pathinfo = pathinfo($url);
+    include 'db_config'; 
 ?>
 <!DOCTYPE html>
 <!--
@@ -27,7 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 	<script src="https://www.motherhood.com.my/themes/default-bootstrap/dashboard-assets/sweetalert2-v10.13.0/dist/sweetalert2.all.min.js" type="text/javascript"></script>
   <link href="https://www.motherhood.com.my/themes/default-bootstrap/dashboard-assets/sweetalert2-v10.13.0/dist/sweetalert2.min.css" rel="stylesheet" type="text/css" />
 	<script src="https://www.motherhood.com.my/themes/default-bootstrap/dashboard-assets/Inputmask-5.x/dist/jquery.inputmask.js" type="text/javascript"></script>
-	<script src="https://www.motherhood.com.my/admin2635/dashboard/newEvents/tinymce/tinymce.min.js" type="text/javascript"></script>
+	<script src="https://www.motherhood.com.my/themes/default-bootstrap/dashboard-assets/tinymce/tinymce.min.js" type="text/javascript"></script>
   
 
   <!-- AdminLTE Theme & App -->
